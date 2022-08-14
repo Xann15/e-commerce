@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif;
+    height: 2000px;
+    background-color: rgb(215, 219, 242);
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    cursor: default;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(82, 110, 251);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* row 1 */
+.nav-row-1 {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.nav-row-1 a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 7px;
+    transition: 0.7s ease all;
+}
+
+.nav-row-1 a:hover {
+    color: rgb(215, 213, 207);
+}
+
+.nav-row-1 li {
+    transition: 0.7s ease all;
+}
+
+.nav-row-1 li:hover {
+    transform: rotate(2deg);
+}
+
+    /* row 1 left */
+    .row1-item1 {
+        display: flex;
+        margin: auto;
+    }
+
+    .row1-item1 .fb, .ig, .yt {
+        transition: 0.7s ease all;
+    }
+
+    .row1-item1 .fb:hover {
+        color: blue;
+    }
+
+    .row1-item1 .ig:hover {
+        color: palevioletred;
+    }
+
+    .row1-item1 .yt:hover {
+        color: red;
+    }
+    /* end row 1 left */
+
+    /* row 1 right */
+    .row1-item2 {
+        margin: auto;
+        display: flex;
+    }
+    /* end row 1 right */
+/* end row 1 */
+
+/* row 2 */
+.nav-row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    color: white;
+    margin: auto;
+    user-select: none;
+    display: flex;
+}
+
+.nav-brand i {
+    font-size: 1.5em;
+}
+
+.nav-brand p {
+    font-size: 1.5em;
+}
+
+    /* search input */
+    .nav-search {
+        align-items: center;
+        width: 70%;
+    }
+
+    .nav-search input{ 
+        margin: auto;
+        border: unset;
+        height: 40px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    /* end search input */
+
+    /* recommended list */
+    .nav-search .recom {
+        display: flex;
+    }
+
+    .nav-search li {
+        font-size: 12px;
+        margin: 5px auto;
+        transition: 0.7s ease all;
+    }
+
+    .nav-search li:hover {
+        transform: rotate(2deg);
+    }
+
+    .nav-search .recom a {
+        text-decoration: none;
+        color: white;
+        transition: 0.7s ease all;
+    }
+
+    .nav-search .recom a:hover {
+        color: rgb(215, 213, 207);
+    }
+
+    /* end recommended list */
+
+.nav-cart {
+    margin: auto;
+    text-align: center;
+}
+
+.nav-cart  a {
+    color: white;
+    font-size: 1.8rem;
+    transition: 0.7s ease all;
+}
+
+
+.nav-cart a:hover {
+    color: rgb(215, 213, 207);
+}
+/* end row 2 */
+/* End Navbar */
+
+/* Content */
+.container-fluid {
+    height: 100vh;
+}
+
+.nav-space {
+    height: 110px;
+}
+
+/* banner */
+    .banner {
+        margin: 50px;
+    }
+
+    .category {
+        margin-top: 70px;
+        height: 150px;
+    }
+
+    .category .title {
+        font-size: 2em;
+        font-family: sofia;
+    }
+/* end banner */
+
+/* item sale */
+
+/* end item sale*/
+/* End Content */
+
